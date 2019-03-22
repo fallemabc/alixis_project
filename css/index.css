@@ -1180,6 +1180,7 @@ video {
 .box__title {
 	display: flex;
 	width: 35%;
+	height: 60px;
 	margin-bottom: .5rem;
 }
 
@@ -1188,7 +1189,7 @@ video {
 }
 
 .select-us__item:last-of-type .box__title {
-	width: 60%;
+	width: 75%;
 }
 
 .box__title {
