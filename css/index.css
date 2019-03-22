@@ -1393,25 +1393,23 @@ video {
 	position: relative;
 	width: 30px;
 	height: 30px;
+    background-size: 30px 30px;
+    margin-right: 5%;
 }
 
 .footer__link_fb::after {
 	background: url(../img/fb.svg) no-repeat;
-	background-size: 100%;
 }
 
 .footer__link_tw::after {
 	background: url(../img/tw.svg) no-repeat;
-	background-size: 100%;
 }
 
 .footer__link_inst::after {
 	background: url(../img/inst.svg) no-repeat;
-	background-size: 100%;
 }
 
 .footer__link_goo::after {
 	background: url(../img/google.svg) no-repeat;
-	background-size: 100%;
 }
 
