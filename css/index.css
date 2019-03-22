@@ -1393,8 +1393,8 @@ video {
 	position: relative;
 	width: 30px;
 	height: 30px;
-    background-size: 30px 30px;
     margin-right: 5%;
+	vertical-align: center;
 }
 
 .footer__link_fb::after {
@@ -1403,6 +1403,7 @@ video {
 
 .footer__link_tw::after {
 	background: url(../img/tw.svg) no-repeat;
+	background-size: 100% 100%;
 }
 
 .footer__link_inst::after {
