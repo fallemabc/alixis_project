@@ -490,9 +490,9 @@ video {
 .our-team__item {
 	position: relative;
 	width: 265px;
+	height: 330px;
 	margin-right: 2%;
 	margin-bottom: 2%;
-	height: 330px;
 }
 
 .our-team__img {
@@ -502,7 +502,7 @@ video {
 	transform: translateX(-50%);
 	width: 100%;
 	height: 100%;
-	background-size: cover;
+	background-size: contain;
 }
 /*переделать рамки*/
 .our-team__item:nth-child(1) > .our-team__img {
