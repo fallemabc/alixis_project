@@ -37,3 +37,6 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "flex";
     dots[slideIndex - 1].className += " active";
 }
+
+//Появление блока при наведении
+

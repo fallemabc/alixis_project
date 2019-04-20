@@ -297,7 +297,6 @@
 video {
 	width: 100%;
 	height: 100%;
-	max-height: 500px;
 	filter: brightness(40%);
 }
 
@@ -489,10 +488,10 @@ video {
 
 .our-team__item {
 	position: relative;
-	width: 265px;
+	width: 263px;
+	height: 330px;
 	margin-right: 2%;
 	margin-bottom: 2%;
-	height: 330px;
 }
 
 .our-team__img {
@@ -582,16 +581,11 @@ video {
 	left: 48%;
 	transform: translateX(-48%);
 	display: none;
+	flex-direction: row;
+	font-family: 'Poppins', sans-serif;
 	width: 60%;
 	height: 350px;
 	background: #fff;
-}
-
-.our-team__item:hover ~ .our-team__member-about {
-	position: absolute;
-	display: flex;
-	flex-direction: row;
-	font-family: 'Poppins', sans-serif;
 }
 
 .member-about__item {
@@ -837,7 +831,7 @@ video {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 70%;
+	width: 65%;
 }
 
 .work-steps__text {
