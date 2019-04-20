@@ -836,7 +836,7 @@ video {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 70%;
+	width: 65%;
 }
 
 .work-steps__text {
@@ -1179,6 +1179,7 @@ video {
 .box__title {
 	display: flex;
 	width: 35%;
+	height: 60px;
 	margin-bottom: .5rem;
 }
 
@@ -1187,7 +1188,7 @@ video {
 }
 
 .select-us__item:last-of-type .box__title {
-	width: 60%;
+	width: 75%;
 }
 
 .box__title {
@@ -1339,9 +1340,12 @@ video {
 .footer__section {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: flex-start;
+	align-items: center;
 	width: 90%;
+	height: 225px;
 	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	color: #d2d2d2;
 }
 
 .footer__logo {
@@ -1352,5 +1356,60 @@ video {
 
 .footer__item {
 	flex: 1 1 80%;
+	height: 100px;
 	margin-right: 2%;
 }
+
+.footer__title {
+	font-size: 1.1rem;
+}
+
+.footer__title_us {
+	color: #38c695;
+}
+
+.footer__title_uk {
+	color: #B27CF5;
+}
+
+.footer__title_social {
+	color: #feb960;
+}
+
+.footer__text {
+	font-size: 1rem;
+	line-height: 1.7rem;
+}
+
+.footer__link {
+	width: 30px;
+	height: 30px;
+}
+
+.footer__link::after {
+	display: inline-block;
+	content: "";
+	position: relative;
+	width: 30px;
+	height: 30px;
+    margin-right: 5%;
+	vertical-align: center;
+}
+
+.footer__link_fb::after {
+	background: url(../img/fb.svg) no-repeat;
+}
+
+.footer__link_tw::after {
+	background: url(../img/tw.svg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.footer__link_inst::after {
+	background: url(../img/inst.svg) no-repeat;
+}
+
+.footer__link_goo::after {
+	background: url(../img/google.svg) no-repeat;
+}
+
